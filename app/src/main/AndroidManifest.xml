@@ -16,6 +16,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".SignInActivity"
+            />
+        <activity android:name=".TopMenuActivity"/>
+        <activity android:name=".MyOrderActivity"/>
+        <activity android:name=".firstPageActivity"/>
+        <activity android:name=".menuActivity"/>
+        <activity android:name=".SettingsActivity"/>
     </application>
 
 </manifest>

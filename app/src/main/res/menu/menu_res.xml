@@ -3,22 +3,26 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/Menu"
-        android:title="Menu"
+        android:id="@+id/topMenu"
+        android:title="topMenu"
         app:showAsAction="ifRoom"
         >
-        <item android:id="@+id/MenuMeat"
-        android:title="Meat" />
-        <item android:id="@+id/MenuSoup"
-            android:title="Soup" />
-       <item android:id="@+id/MenuDrinks"
-        android:title="drinks" />
+        <item android:id="@+id/Menu"
+            android:title="Menu"
+            android:icon = "@drawable/ic_menu"
+            app:showAsAction="ifRoom"
+            />
 
     </item>
     <item
         android:id="@+id/MyOrder"
-        android:title="Order" />
+        android:title="MyOrder" />
     <item
         android:id="@+id/Help"
-        android:title="Help" />
+        android:title="Help"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:id="@+id/settings"
+        android:title="settings"/>
 </menu>
